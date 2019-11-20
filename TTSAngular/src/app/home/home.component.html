@@ -1,0 +1,6 @@
+<div class="col-md-12">
+        <select (change)="selectChangeHandler($event)">
+                <option *ngFor="let lng of lngA" value={{lng.lang}}>{{lng.name}}</option>
+            </select>
+    <p class="homeText">{{homeText}}</p>
+</div>
